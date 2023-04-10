@@ -1,0 +1,30 @@
+body {
+    background: black;
+}
+
+h1,h2,h3,h4 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+section p {
+    font-family: 'Lato', sans-serif;
+}
+
+section quote {
+    font-family: 'Lato', sans-serif;
+}
+
+menu {
+    background: red;
+    height: 50px;
+}
+
+header {
+    background-image: url('../img/orquestra-filarmonica-de-violas-panoramica.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;  
+    height: 700px;
+    width: 100%;
+}
