@@ -1,0 +1,16 @@
+body {
+    background: #FFF;
+    font-family: 'Lato'
+}
+
+
+#hero {
+
+}
+
+@media (min-width: 992px) { 
+    #hero {
+        
+    }
+}
+

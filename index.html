@@ -1,63 +1,120 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Orquestra Filarmônica de Violas</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- OFV stuff -->
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/Skeleton-2.0.4/normalize.css">
-    <link rel="stylesheet" href="css/Skeleton-2.0.4/skeleton.css">
-    <link rel="stylesheet" href="css/ofv.css">
-</head>
-<body>
-    <header class="u-max-full-width">
-        <menu>Contato / Instagram / Youtube</menu>
+    <link rel="stylesheet" href="ofv.css">
+    <title>Orquestra Filarmônica de Violas</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <button class="btn btn-lg btn-link text-dark d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false" aria-label="Ativar a navegação">
+                <i class="fa-solid fa-bars"></i>
+                <span class="sr-only">Navegação</span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu-principal">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#hero">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="hero">
         <h1>Orquestra Filarmônica de Violas</h1>
         <!-- player spotify -->
-    </header>
-    <section>
-        <h2>Orquestra Filarmônica de Violas 20 anos</h2>
-        <p>Em comemoração aos seus 20 anos de atividades, a Orquestra Filarmônica de Violas traz espetáculo com um resumo da história do grupo, reunindo clássicos do cancioneiro caipira e da MPB, além de composições de seus integrantes. No repertório, “Vide Vida Marvada”, de Rolando Boldrin, “Fé Cega, Faca Amolada”, de Milton Nascimento e Fernando Brant, “Lamento Sertanejo”, de Gilberto Gil e Dominguinhos, “Tocando em Frente”, de Almir Sater e Renato Teixeira, entre outros arranjos que trazem uma atmosfera de profunda emoção e encantamento ao público.</p>
-        <p>Desde 2011 sob direção artística de João Paulo Amaral, a Filarmônica de Violas é reconhecida como o mais inovador grupo musical em seu segmento, tendo em 2022 recebido o Prêmio Inezita Barroso da Alesp. Segundo o maestro Nelson Ayres "A Filarmônica já tem atrás de si uma história brilhante, em cada nota ponteada ouve-se aquilo que é a grande marca do grupo: música feita com paixão."</p>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/5ounciaiiBmvCQCGz5AIXP?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     </section>
-    <div id="destaque1" class="media">
-        <img src="" />
-    </div>
-    <section>
-        <quote>A principal característica da Filarmônica é “a dedicação e a busca por um resultado musical e artístico relevante. O desafio é criar e interpretar arranjos bem cuidados para o repertório que vai desde a música caipira até outros gêneros, explorando e ampliando as possibilidades e sonoridades da viola brasileira de dez cordas, a nossa querida viola caipira. O foco é a música instrumental, mas sempre abrimos espaço para o canto também. São dois fatores principais: a elaboração e interpretação dos arranjos e o desenvolvimento musical dos integrantes da Filarmônica”.
-            <author>João Paulo Amaral, diretor da OFV</author>
-        </quote>
-        <p>Desde 2011 sob direção artística de João Paulo Amaral, a Filarmônica de Violas é reconhecida como o mais inovador grupo musical em seu segmento, tendo em 2022 recebido o Prêmio Inezita Barroso da Alesp. Segundo o maestro Nelson Ayres "A Filarmônica já tem atrás de si uma história brilhante, em cada nota ponteada ouve-se aquilo que é a grande marca do grupo: música feita com paixão."</p>
-        <p>O formato de arranjos orquestrais para violas, que se tornou um diferencial do grupo, foi idealizado pelo renomado violeiro e pesquisador Ivan Vilela, que fundou o grupo em 2001 na cidade de Campinas. Utilizando a estrutura equivalente aos naipes orquestrais, esses arranjos permitem ao grupo tocar de forma semelhante a uma orquestra sinfônica convencional, com suas seções de cordas, madeiras, metais e percussão, no entanto, utilizando apenas subgrupos de violas caipiras. Em síntese, o objetivo é utilizar a combinação minuciosa de diferentes linhas musicais, as quais assumem funções melódicas, harmônicas e rítmicas. O conjunto das linhas, executadas com uma cuidadosa e lapidada interpretação, produz um resultado sonoro rico em detalhes, arrojado e ao mesmo tempo popular, colorido por uma ampla gama de sonoridades, texturas e nuances.</p>
+    <section id="texto1">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col">
+                    <h2 class="mb-4">Orquestra Filarmônica de Violas 20 anos</h2>
+                    <p>Em comemoração aos seus 20 anos de atividades, a Orquestra Filarmônica de Violas traz espetáculo com um resumo da história do grupo, reunindo clássicos do cancioneiro caipira e da MPB, além de composições de seus integrantes. No repertório, "Vide Vida Marvada", de Rolando Boldrin, "Fé Cega, Faca Amolada", de Milton Nascimento e Fernando Brant, "Lamento Sertanejo", de Gilberto Gil e Dominguinhos, "Tocando em Frente", de Almir Sater e Renato Teixeira, entre outros arranjos que trazem uma atmosfera de profunda emoção e encantamento ao público.</p>
+                    <p>Desde 2011 sob direção artística de João Paulo Amaral, a Filarmônica de Violas é reconhecida como o mais inovador grupo musical em seu segmento, tendo em 2022 recebido o Prêmio Inezita Barroso da Alesp. Segundo o maestro Nelson Ayres "A Filarmônica já tem atrás de si uma história brilhante, em cada nota ponteada ouve-se aquilo que é a grande marca do grupo: música feita com paixão."</p>
+                </div>
+            </div>
+        </div>
     </section>
-    <div id="destaque2" class="media">
+    <section id="destaque1" class="media">
+        <img src="img/orquestra-filarmonica-viola-mosaico.jpg" alt="" class="d-block w-100"/>
+    </section>
+    <section id="texto2">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col">
+                    <figure>
+                        <blockquote class="blockquote">
+                          <p>"A principal característica da Filarmônica é a dedicação e a busca por um resultado musical e artístico relevante. O desafio é criar e interpretar arranjos bem cuidados para o repertório que vai desde a música caipira até outros gêneros, explorando e ampliando as possibilidades e sonoridades da viola brasileira de dez cordas, a nossa querida viola caipira. O foco é a música instrumental, mas sempre abrimos espaço para o canto também. São dois fatores principais: a elaboração e interpretação dos arranjos e o desenvolvimento musical dos integrantes da Filarmônica".</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer">
+                            João Paulo Amaral<cite title="Source Title">, diretor da OFV</cite>
+                        </figcaption>
+                    </figure>
+                    <p>Desde 2011 sob direção artística de João Paulo Amaral, a Filarmônica de Violas é reconhecida como o mais inovador grupo musical em seu segmento, tendo em 2022 recebido o Prêmio Inezita Barroso da Alesp. Segundo o maestro Nelson Ayres "A Filarmônica já tem atrás de si uma história brilhante, em cada nota ponteada ouve-se aquilo que é a grande marca do grupo: música feita com paixão."</p>
+                    <p>O formato de arranjos orquestrais para violas, que se tornou um diferencial do grupo, foi idealizado pelo renomado violeiro e pesquisador Ivan Vilela, que fundou o grupo em 2001 na cidade de Campinas. Utilizando a estrutura equivalente aos naipes orquestrais, esses arranjos permitem ao grupo tocar de forma semelhante a uma orquestra sinfônica convencional, com suas seções de cordas, madeiras, metais e percussão, no entanto, utilizando apenas subgrupos de violas caipiras. Em síntese, o objetivo é utilizar a combinação minuciosa de diferentes linhas musicais, as quais assumem funções melódicas, harmônicas e rítmicas. O conjunto das linhas, executadas com uma cuidadosa e lapidada interpretação, produz um resultado sonoro rico em detalhes, arrojado e ao mesmo tempo popular, colorido por uma ampla gama de sonoridades, texturas e nuances.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="destaque2" class="media">
         <!-- player youtube -->
-        <legend></legend>
-    </div>
-    <section>
-            <p>O segundo fator diferencial da Filarmônica é o desenvolvimento musical dos integrantes, processo gradual de amadurecimento técnico e individual dos violeiros e violeiras motivado pelo crescente nível dos arranjos propostos. Ao longo dos anos, boa parte dos integrantes quer eram iniciantes no instrumento foi se profissionalizando, tanto os que fazem parte do grupo desde sua fase inicial, até os que ingressaram posteriormente atraídos pelo perfil artístico da Filarmônica. Essas transformações alimentaram o próprio ciclo natural de motivação e evolução da orquestra.</p>
-            <p>Ao longo dos seus mais de 20 anos de existência, o grupo gravou três álbuns, recebeu diversos prêmios, indicações, homenagens, participou de festivais e realizou apresentações em espaços como a Sala São Paulo, unidades do Sescs e Sesi, teatros e centros culturais de diversas cidades, além de tocar ou gravar com nomes como Tinoco, Irmãs Galvão, Ana Luiza, Ná Ozetti, Suzana Salles, Paulo Freire, Renato Braz, Tetê Espíndola, Ana Gilli, Lenine Santos, Nailor Proveta, Toninho Ferragutti, Ricardo Herz, Alexandre Ribeiro, Crythian Dozza e Fabio Presgrave.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/DcoqKrUVGFk?start=105" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </section>
-    <div id="destaque3" class="media">
-        <img src="" />
-    </div>
-    <section>
-        <h3>Série de concertos comemorativos com convidados especiais</h3>
-        <p>A série de concertos de 20 anos vem acontecendo desde agosto de 2022. Alguns dos concertos contaram com participações especiais de artistas como o acordeonista Toninho Ferragutti, a cantora Ana Luiza e o violeiro Ivan Vilela.</p>
+    <section id="texto3">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col">
+                    <p>O segundo fator diferencial da Filarmônica é o desenvolvimento musical dos integrantes, processo gradual de amadurecimento técnico e individual dos violeiros e violeiras motivado pelo crescente nível dos arranjos propostos. Ao longo dos anos, boa parte dos integrantes quer eram iniciantes no instrumento foi se profissionalizando, tanto os que fazem parte do grupo desde sua fase inicial, até os que ingressaram posteriormente atraídos pelo perfil artístico da Filarmônica. Essas transformações alimentaram o próprio ciclo natural de motivação e evolução da orquestra.</p>
+                    <p>Ao longo dos seus mais de 20 anos de existência, o grupo gravou três álbuns, recebeu diversos prêmios, indicações, homenagens, participou de festivais e realizou apresentações em espaços como a Sala São Paulo, unidades do Sescs e Sesi, teatros e centros culturais de diversas cidades, além de tocar ou gravar com nomes como Tinoco, Irmãs Galvão, Ana Luiza, Ná Ozetti, Suzana Salles, Paulo Freire, Renato Braz, Tetê Espíndola, Ana Gilli, Lenine Santos, Nailor Proveta, Toninho Ferragutti, Ricardo Herz, Alexandre Ribeiro, Crythian Dozza e Fabio Presgrave.</p>
+                </div>
+            </div>
+        </div>
     </section>
-    <div id="destaque4" class="media">
-        <img src="" />
+    <section id="destaque3" class="media">
+        <img src="img/orquestra-filarmonica-viola-fundo-palco.jpg" alt="" class="d-block w-100"/>
+    </section>
+    <section id="texto4">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col">
+                    <h3>Série de concertos comemorativos com convidados especiais</h3>
+                    <p>A série de concertos de 20 anos vem acontecendo desde agosto de 2022. Alguns dos concertos contaram com participações especiais de artistas como o acordeonista Toninho Ferragutti, a cantora Ana Luiza e o violeiro Ivan Vilela.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="destaque4" class="media">
+        <img src="" alt="" class="d-block w-100"/>
     </div>    
-    <section>
-        <h4>CONTATO PARA SHOWS</h4>
-        <a href="">filarmonicadeviolas@gmail.com</a>
-        <span>(19) 99618.6927</span>
+    <section id="contato">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col">
+                    <h4>CONTATO PARA SHOWS</h4>
+                    <a href="">filarmonicadeviolas@gmail.com</a>
+                    <span>(19) 99618.6927</span>
+                </div>
+            </div>
+        </div>                    
     </section>   
-    <div id="destaque5" class="media">
-        <img src="" />
-    </div>    
-</body>
+    <section id="destaque5" class="media">
+        <img src="orquestra-filarmonica-viola-panoramica2.jpg" alt="" class="d-block w-100"/>
+    </section>    
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
 </html>
