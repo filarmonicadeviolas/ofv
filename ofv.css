@@ -8,7 +8,7 @@ h1, h2, h3, h4 {
 }
 
 #hero {
-  background-image: url(img/orquestra-filarmonica-de-violas-panoramica2.jpg);
+  background-image: url(img/orquestra-filarmonica-de-violas-panoramica.jpg);
   background-color: #000;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -19,7 +19,7 @@ h1, h2, h3, h4 {
 
 #hero img {
   width: 15%;
-  margin: 35px auto 0 auto;
+  margin: 30px auto 0 auto;
 }
 
 #spotify {
@@ -34,6 +34,33 @@ h1, h2, h3, h4 {
   aspect-ratio: 16 / 9;
   width: 100%;
 }
+
+#texto2 .fa-quote-left {
+    color: #432061;
+    font-size: 3em;
+}
+
+#texto2 .blockquote-footer {
+    color: #432061;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+#contato {
+    background: #000;
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+}
+
+#contato h4 {
+    font-size: 1.5em;
+}
+
+#contato span {
+    display: block;
+}
+
 
 @media (min-width: 992px) {
   #hero {
