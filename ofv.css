@@ -1,16 +1,46 @@
 body {
-    background: #FFF;
-    font-family: 'Lato'
+  background: #fff;
+  font-family: 'Lato';
 }
 
+h1, h2, h3, h4 {
+    font-weight: 700;
+}
 
 #hero {
-
+  background-image: url(img/orquestra-filarmonica-de-violas-panoramica2.jpg);
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+  aspect-ratio: 16/7;
+  text-align: center;
 }
 
-@media (min-width: 992px) { 
-    #hero {
-        
-    }
+#hero img {
+  width: 15%;
+  margin: 35px auto 0 auto;
 }
 
+#spotify {
+  background: #000;
+}
+
+#youtube {
+  background: #000;
+}
+
+.yt {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  #hero {
+    background-size: cover;
+  }
+
+  #hero img {
+    margin: 100px auto 0 auto;
+  }
+}
