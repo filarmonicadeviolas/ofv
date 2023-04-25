@@ -47,14 +47,14 @@ h1, h2, h3, h4 {
 }
 
 #contato {
-    background: #000;
+    background: #210e27;
     color: #fff;
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
 }
 
 #contato h4 {
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 #contato span {
@@ -69,5 +69,13 @@ h1, h2, h3, h4 {
 
   #hero img {
     margin: 100px auto 0 auto;
+  }
+
+  #contato {
+    font-size: 2em;
+  }
+
+  #contato h4 {
+    font-size: 1.5em;
   }
 }
