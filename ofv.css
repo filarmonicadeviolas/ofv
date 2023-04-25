@@ -7,6 +7,10 @@ h1, h2, h3, h4 {
     font-weight: 700;
 }
 
+img {
+  max-width: 100%;
+}
+
 nav { background-color: #000; }
 
 #hero {
@@ -69,6 +73,10 @@ nav { background-color: #000; }
 
 
 @media (min-width: 992px) {
+
+  body {
+    font-size: 1.2em;
+  }
 
   #hero img {
     margin: 70px auto 0 auto;
