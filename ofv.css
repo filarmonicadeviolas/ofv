@@ -1,6 +1,6 @@
 body {
   background: #fff;
-  font-family: 'Lato';
+  font-family: 'Ubuntu';
 }
 
 h1, h2, h3, h4 {
@@ -58,7 +58,7 @@ nav { background-color: #000; }
 }
 
 #contato {
-    background: #210e27;
+    background: #210e27 url("img/reverb3.png");
     color: #fff;
     font-size: 1.5em;
     text-align: center;
@@ -72,6 +72,13 @@ nav { background-color: #000; }
     display: block;
 }
 
+#texto1 {
+  background: url("img/reverb1.png");
+}
+
+#texto3 {
+  background: url("img/reverb2.png");
+}
 
 @media (min-width: 992px) {
 
@@ -98,6 +105,8 @@ nav { background-color: #000; }
   #contato {
     font-size: 2em;
   }
+
+
 
   
   #contato h4 {
