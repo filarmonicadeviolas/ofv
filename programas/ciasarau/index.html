@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orquestra Filarmônica de Violas - Programa - Cia Sarau</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+    <link rel="icon" type="image/png" href="/img/favicon.png">
+    <meta name="description"
+        content="Formado apenas por violas e com mais de 20 anos de trajetoria, o grupo tem 3 albuns lançados e é reconhecido por expandir as fronteiras do instrumento.">
+    <meta name="keywords"
+        content="orquestra de viola, orquestra de viola caipira, orquestra de viola de Campinas, viola, viola caipira, música caipira, orquestra, música, Ivan Vilela, João Paulo Amaral, Encanto das Águas, música brasileira, Campinas - SP">
+
+
+
+    <style>
+        .ubuntu-light {
+            font-family: "Ubuntu", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+        }
+
+        .ubuntu-regular {
+            font-family: "Ubuntu", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .ubuntu-medium {
+            font-family: "Ubuntu", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+        }
+
+        .ubuntu-bold {
+            font-family: "Ubuntu", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        .ubuntu-light-italic {
+            font-family: "Ubuntu", sans-serif;
+            font-weight: 300;
+            font-style: italic;
+        }
+
+        .ubuntu-regular-italic {
+            font-family: "Ubuntu", sans-serif;
+            font-weight: 400;
+            font-style: italic;
+        }
+
+        .ubuntu-medium-italic {
+            font-family: "Ubuntu", sans-serif;
+            font-weight: 500;
+            font-style: italic;
+        }
+
+        .ubuntu-bold-italic {
+            font-family: "Ubuntu", sans-serif;
+            font-weight: 700;
+            font-style: italic;
+        }
+
+
+        body {
+            color: #FFF;
+            font-family: "Ubuntu", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            margin: 0;
+            padding: 130px 40px 0 40px;
+            background-color: #000;
+        }
+
+        .leftBorder {
+            border-left: 3px solid #FFF;
+            padding-left: 15px;
+            margin-bottom: 50px;
+        }
+
+        .data {
+            font-size: 1.25em;
+            font-weight: 300;
+        }
+
+        .local {
+            font-size: 1.25em;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        #show {
+            margin-bottom: 40px;
+        }
+
+        #show h2 {
+            font-size: 1.75em;
+            font-weight: 500;
+            max-width: 300px;
+        }
+
+        #programa {
+            margin-bottom: 30px;
+        }
+
+        #programa h1 {
+            font-size: 2.5em;
+            font-weight: 500;
+        }
+
+        #crew {
+            list-style-type: none;
+            padding: 0;
+            margin-bottom: 120px;
+        }
+
+        #crew li {
+            font-style: italic;
+            margin-bottom: 3px;
+            font-size: 0.95em;
+        }
+
+        #crew li span {
+            font-weight: 500;
+            font-style: normal;
+        }
+
+        #crew li.br {
+            margin-bottom: 20px;
+        }
+
+        #setlist {
+            list-style-type: none;
+            padding: 0;
+            margin-bottom: 50px;
+        }
+
+        #setlist li {
+            margin-bottom: 30px;
+            font-size: 0.95em;
+        }
+
+
+        #setlist li h4 {
+            margin: 2px;
+            font-size: 1.2em;
+            ;
+        }
+
+        #setlist li p {
+            margin: 2px;
+        }
+
+        #floating-button {
+            position: fixed;
+            bottom: 0px;
+            left: 0px;
+            z-index: 1000;
+            width: 100%;
+        }
+
+        #floating-button a {
+            display: block;
+            background-color: #6944D9;
+            color: white;
+            padding: 30px;
+            border: none;
+            font-size: 1.3em;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        #floating-button a:hover {
+            background-color: #9f80fd;
+        }
+
+
+        #ajudar {
+            color: #FFF;
+        }
+
+        #ajudar .close-ajudar {
+            background-color: #9f80fd;
+            color: #FFF;
+            padding: 20px;
+            font-size: 1.4em;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        #ajudar .modal-content {
+            padding: 20px;
+            font-weight: 300;
+        }
+
+        #ajudar p.apresentacao {
+            margin-bottom: 40px;
+        }
+
+        #ajudar p {
+            font-size: 1.2em;
+        }
+
+        #top-fixed-div {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 80px; /* Adjust the height as needed */
+        background-image: url('../banner.png'); /* Replace with the path to your PNG image */
+        background-size: cover;
+        background-position: -70px top;
+        background-color: #000;
+        z-index: 1000;
+    }
+    </style>
+
+</head>
+
+<body>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="../animatedModal.min.js"></script>
+
+    <div id="top-fixed-div"></div>
+
+
+    <div id="where-when" class="leftBorder">
+        <div class="data">15 de Março de 2025</div>
+        <div class="local">Cia Sarau - Campinas/SP</div>
+    </div>
+
+    <div id="show" class="leftBorder">
+        <h2>Orquestra Filarmônica de Violas e Ana Luiza</h2>
+    </div>
+
+    <ul id="setlist">
+        <li>
+            <h4>1. Encontro das águas (Tavinho Moura)</h4>
+            <p><span>Arranjo:</span> Thiago Rossi</p>
+            <p class="info">Poema “Riachos irmãos”(Luciana Abrahamsson) por Osório Cardoso</p>
+        </li>
+        <li>
+            <h4>2. Vide vida marvada (Rolando Boldrin)</h4>
+            <p><span>Arranjo:</span> Ivan Vilela</p>
+        </li>
+        <li>
+            <h4>3. Tocando em Frente (Almir Sater, Renato Teixeira)</h4>
+            <p><span>Arranjo:</span> João Paulo Amaral</p>
+        </li>
+        <li>
+            <h4>4. Lamento Sertanejo (Dominguinhos, Gilberto Gil)</h4>
+            <p><span>Arranjo:</span> Almir Côrtes</p>
+        </li>
+        <li>
+            <h4>5. Primavera Pantaneira (Messias da Viola e Vinícius Alves)</h4>
+            <p><span>Arranjo:</span> Messias da Viola e Vinícius Alves</p>
+        </li>
+        <li>
+            <h4>6. Chico Mineiro (Tonico e Francisco Ribeiro)</h4>
+            <p><span>Arranjo:</span> João Paulo Amaral</p>
+            <p class="info">João Paulo Amaral (voz) e Thiago Rossi (voz)</p>
+        </li>
+        <li>
+            <h4>7. Patu (César Petená)</h4>
+            <p><span>Arranjo:</span> César Petená</p>
+            <p class="info">André Moraes (viola dinâmica) e César Petená (viola de buriti)</p>
+        </li>
+        <li>
+            <h4>8. A coisa tá feia (Tião Carreiro e Lourival dos Santos)</h4>
+            <p><span>Arranjo:</span> João Paulo Amaral</p>
+        </li>
+        <li>
+            <h4>9. Terra Clara (João Paulo Amaral e Luis Felipe Gama)</h4>
+            <p><span>Arranjo:</span> João Paulo Amaral</p>
+        </li>
+        <li>
+            <h4>10. Bachianas Brasileiras No5 - ÁRIA (Heitor Villa-Lobos e Ruth Valadares Corrêa)</h4>
+            <p><span>Arranjo:</span> Vinícius Muniz</p>
+        </li>
+        <li>
+            <h4>11. Going to California (Robert Plant, Jimmy Page)</h4>
+            <p><span>Arranjo:</span> João Paulo Amaral</p>
+        </li>
+        <li>
+            <h4>12. Você vai gostar (Elpídio dos Santos)</h4>
+            <p><span>Arranjo:</span> Elias Kopcak</p>
+        </li>
+        <li>
+            <h4>13. Fé cega, faca amolada (Milton Nascimento, Ronaldo Bastos)</h4>
+            <p><span>Arranjo:</span> Almir Côrtes</p>
+        </li>
+        <li>* o programa é sujeito a modificações</li>
+    </ul>
+
+    <div id="programa" class="leftBorder">
+        <h2>Ficha Técnica</h2>
+    </div>
+
+    <ul id="crew">
+        <li><span>João Paulo Amaral:</span> direção, viola caipira e voz</li>
+        <li><span>André Moraes:</span> viola caipira e viola dinâmica</li>
+        <li><span>César Petená:</span> viola caipira, viola de cocho e viola de buriti</li>
+        <li><span>Diná Mendes:</span> viola caipira</li>
+        <li><span>Elias Kopcak:</span> viola caipira e viola de cocho</li>
+        <li><span>Gabriel Polegate:</span> viola caipira</li>
+        <li><span>Gabriel Souza:</span> viola caipira</li>
+        <li><span>Giorgio Francisco:</span> viola caipira</li>
+        <li><span>Luiz Milanez:</span> viola caipira</li>
+        <li><span>Marina Ebeck:</span> viola caipira</li>
+        <li><span>Pedro Gava:</span> viola caipira</li>
+        <li><span>Rodrigo Junqueira:</span> viola caipira</li>
+        <li><span>Tercio Esperandio:</span> viola caipira</li>
+        <li><span>Thiago Rossi:</span> viola caipira e Voz</li>
+        <li><span>Uassyr Siqueira:</span> viola caipira</li>
+        <li><span>Wilson Lima:</span> viola caipira</li>
+        <li class="br"></li>
+        <li><span>Ana Luiza:</span> voz</li>
+        <li><span>Marcelo Checchi:</span> técnico de som</li>
+
+    </ul>
+
+
+
+
+
+    <div id="floating-button">
+        <a id="como" href="#ajudar">Como Ajudar a Orquestra?</a>
+    </div>
+
+    <div id="ajudar">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+        <div class="close-ajudar">
+            Voltar para o programa
+        </div>
+
+        <div class="modal-content">
+            <p class="apresentacao">Existem diversas formas de contribuir para manter nosso grupo ativo!</p>
+
+            <div class="leftBorder">
+                <h2>Doe</h2>
+                <p>Faça um PIX de qualquer valor para, ou se prefirir faça uma transferência bancária para</p>
+            </div>
+
+            <div class="leftBorder">
+                <h2>Compre</h2>
+                <p>Comprando nossos CDs, nossas camisetas e quaisquer outros itens que geralmente disponibilizamos em nossoas apresentações, ou on-line.</p>
+            </div>
+
+            <div class="leftBorder">
+                <h2>Siga, Curta e Compartilhe</h2>
+                <p>Seguir e interagir conosco via redes sociais aumenta as chances de outras pessoas conhecerem nosso trabalho e é de graça para você!</p>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        $("#como").animatedModal({
+            animatedIn: 'bounceInUp',
+            animatedOut: 'bounceOutDown',
+            animationDuration: '1s',
+            color: '#6944D9'
+        });
+    </script>
+
+</body>
+
+</html>
